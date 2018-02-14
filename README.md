@@ -1,6 +1,6 @@
 # Hangman_Game
 * updated version, Jess Marrano
-A simple game of hangman via web development.
+* A simple game of hangman via web development.
 
 # Overview of the webpage
 * A random word is presented to the user as well as an alphabet.

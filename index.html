@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hangman</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <!--******************** header *******************-->
+    <div class="wrapper">
+        <header id="masthead">
+            <div class="container">
+                <a href="index.html" id="logo">Jess Marrano</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!--******************** hangman *******************-->
+        <main class="container">
+            <section class="main-section">
+                <div class="header" class="jumbotron">
+                    <h1>Hangman</h1>
+                    <p>Use the alphabet below to guess the word.</p>
+                </div>
+                <div class="wrapper">
+                    <div type="button" class="btn btn-outline-primary" id="buttons"></div>
+                    <p id="catagoryName"></p>
+                    <div id="hold"></div>
+                    <p id="mylives"></p>
+                    <div class="container">
+                        <button id="reset">Play again</button>
+                    </div>
+                </div>
+            </section>
+            <section class="sidebar">
+                <div id="connect">
+                    <h2>Score</h2>
+                    <ul>
+                        <li id="wins">wins</li>
+                        <li id="losses">losses</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        <div class="push"></div>
+    </div>
+    <footer>
+        <div class="container">
+            &copy; Copyright 2016 Jess Marrano
+        </div>
+    </footer>
+    <script type="text/javascript" src="assets/js/javascript.js"></script>
+</body>
+
+</html>
